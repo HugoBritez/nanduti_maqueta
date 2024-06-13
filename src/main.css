@@ -34,7 +34,7 @@ body{
   border-radius: 25px 25px 0 0;
   justify-content: space-around;
   align-items: center;
-  position: absolute;
+  position: fixed;
   bottom: 0vh;
 }
 
@@ -136,7 +136,7 @@ i{
   padding: 0.5rem;
   border: none;
   border-radius: 20px;
-  margin-left: 48vw;
+  margin-left: 55vw;
   background-color: white;
   font-size: 0.8rem;
 }
