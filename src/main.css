@@ -12,9 +12,15 @@
 }
 
 body{
-    background-image: url('./assets/bg_home.svg');
+  background-color: aliceblue;
     background-size: auto;
     background-repeat: no-repeat;
+}
+
+.flex
+{
+  display: flex;
+  flex-direction: column;
 }
 
 /* HEADER SECTION */
@@ -25,7 +31,7 @@ body{
   width: 100vw;
   height: 100px;
   display: flex;
-  border-radius: 20px 20px 0 0;
+  border-radius: 25px 25px 0 0;
   justify-content: space-around;
   align-items: center;
   position: absolute;
@@ -49,21 +55,93 @@ i{
 
 
 .header_search{
-  margin: 0.5rem 2rem;
+  margin: 0.5rem 1rem;
 }
 .search_bar{
-  width: 10rem;
+  width: 85vw;
   margin-right: 0.4rem;
   height: 4vh;
-  width: 300px;
   padding: 10px;
   font-size: 16px;
   border: 2px solid rgb(149, 166, 180);
-  border-radius: 15px;
+  border-radius: 25px;
    
 
 }
 
 .search_icon{
   color: rgb(149, 166, 180);
+  margin: 12rem 0.2rem 0 0.2rem;
+}
+
+.category_img{
+  width: 10vw;
+}
+
+
+.lugares_menu{
+  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+
+.card{
+  background-color: white;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 1.5rem;
+}
+
+.restaurant_category{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.restaurant_category p {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.btn{
+  margin-top: 1.5rem;
+  height: 2rem;
+  background-color: aliceblue;
+  color: green;
+  border:none;
+  border-radius: 20px;
+}
+
+
+.home_pic{
+  background-image: url(https://www.bienvenidoaparaguay.com/img/cities/img_1341298915.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 15vh;
+}
+
+.home_pic>*{
+  margin-left: 0.3rem;
+  color: white;
+  font-weight: 500;
+}
+
+.know_more-btn{
+  color: green;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 20px;
+  margin-left: 48vw;
+  background-color: white;
+  font-size: 0.8rem;
+}
+
+.description{
+  font-size: 1.5rem;
+  font-weight: 700;
 }

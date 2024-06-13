@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
 <body>
-    <header class="header_search"><input type="search" class="search_bar"><i class="uil uil-search search_icon"></i></header>
+    <header class="header_search"><input type="search" class="search_bar" placeholder="Que estas buscando?"><i class="uil uil-search search_icon"></i></header>
     <header class="section header_section" id="header">
             <a href="" id="header_link1" class="header_link"><i class="uil uil-estate"></i>Inicio</a>
             <a href="./src/public/more.html" id="header_link2" class="header_link"><i class="uil uil-users-alt"></i>Comunidad</a>
@@ -19,19 +19,41 @@
 
     <section class="home_section section">
 
-        <p class="home_description">
-            Este proyecto surge la necesidad de usar la tecnologia para conectar a nuestra comunidad de manera eficiente y accesible. Esta plataforma digital modernizara la gestión municipal, facilitando el acceso a servicios y promoviendo el desarrollo local.
+        <div class="home_places card flex">
 
+            <div class="lugares_menu ">
+
+                <div class="restaurant_category category">
+                    <img src="./src/assets/icons/lugares/restaurant-fork-svgrepo-com.svg" alt="" class="category_img">
+                    <p>Restaurantes</p>
+                </div>
+    
+                <div class="restaurant_category category">
+                    <img src="./src/assets/icons/lugares/restaurant-fork-svgrepo-com.svg" alt="" class="category_img">
+                    <p>Restaurantes</p>
+                </div>
+    
+                <div class="restaurant_category category">
+                    <img src="./src/assets/icons/lugares/restaurant-fork-svgrepo-com.svg" alt="" class="category_img">
+                    <p>Restaurantes</p>
+                </div>
+    
+                <div class="restaurant_category category">
+                    <img src="./src/assets/icons/lugares/restaurant-fork-svgrepo-com.svg" alt="" class="category_img">
+                    <p>Restaurantes</p>
+                </div>
+                
+            </div>
             
-        </p>
+            <button class="see_more btn">Ver mas categorias</button>
+        </div>
 
-        <span class="home__hook">Y en el futuro mucho mas!
-        </span>
+        <div class="card home_pic">
+            <h2 class="title">Bienvenidos</h2>
+            <p class="description">a Caaguazu</p>
+            <button class="know_more-btn">Conocer la ciudad</button>
+        </div>
 
-        <button class="button type1">
-            <a href=""><span class="btn-txt">Saber mas!</span></a>
-          </button>
-          
     </section>
     <script src="./src/script.js"></script>
 </body>
